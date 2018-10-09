@@ -6,12 +6,12 @@ It includes a few Convolutional Neural Network modules.You can build your own dn
 ## Requirements
 * torch==0.4.1
 * torchvision==0.2.1
+* opencv
+* Pillow
 ## model
 - [mobilenetV2](https://github.com/ericsun99/MobileNet-V2-Pytorch) (`mobilenet_v2`)
-- 
 ### pre-trained model
-you can download pretrain model with url in ($net-module.py)
-
+you can download pretrain model in model_dir(`CWFood_model.pth`)
 ## usage
 ### Inference
 	python3 inference.py --image test.jpg
