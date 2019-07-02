@@ -1,5 +1,5 @@
 # Chinese and Western Food Classification
-This repo contains code for running food classification by pytorch.It uses 208 chinese food classes and 101 western food classes(309-classes).  
+This repo contains code for running food classification by pytorch. It uses 208 chinese food classes and 101 western food classes(309-classes).  
 This repo is designed for those who want to start their projects of image classification.  
 It provides fast experiment setup and attempts to maximize the number of projects killed within the given time.  
 It includes a few Convolutional Neural Network modules.You can build your own dnn easily.  
@@ -31,7 +31,10 @@ paella: 4.138006269931793%
 Pizza: 3.8569435477256775%  
 ### Experiments
 There is integrated with the project using `tensorboardX` library which porved to be very useful as there is no official visualization library in pytorch. There is the learning curves for the food dataset experiment(top-1 acc: 69.66%).
-![](https://i.imgur.com/dpeqoZQ.jpg)
+![](https://i.imgur.com/dpeqoZQ.jpg)  
+### Labels
+[train_data.txt](https://github.com/frotms/Chinese-and-Western-Food-Classification/blob/master/labels/train_data.txt)  
+[val_data.txt](https://github.com/frotms/Chinese-and-Western-Food-Classification/blob/master/labels/val_data.txt)  
 ## References
 1.[https://sites.google.com/view/chinesefoodnet](https://sites.google.com/view/chinesefoodnet)  
 2.[http://www.vision.ee.ethz.ch/datasets_extra/food-101](http://www.vision.ee.ethz.ch/datasets_extra/food-101)  
